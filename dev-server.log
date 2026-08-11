@@ -1,0 +1,364 @@
+▲ Next.js 16.3.0 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.43.7:3000
+- Environments: .env
+✓ Ready in 1834ms
+✓ Running next.config.ts took 144ms
+
+○ Compiling / ...
+ GET /api/og/projects/sanitro-erp 404 in 42s (next.js: 42s, application-code: 639ms)
+ GET / 200 in 48s (next.js: 44s, application-code: 4.8s)
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+      at rr.next (<anonymous>)
+}
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+      at rr.next (<anonymous>)
+}
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+      at rr.next (<anonymous>)
+}
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+      at rr.next (<anonymous>)
+}
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+      at rr.next (<anonymous>)
+}
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+      at rr.next (<anonymous>)
+}
+ GET /api/og/projects/van-pooling-school-transport 500 in 12.6s (next.js: 5.8s, application-code: 6.8s)
+ GET /api/og/projects/onestopcar 500 in 12.6s (next.js: 5.8s, application-code: 6.8s)
+ GET /api/og/projects/ai-chatbot-widget 500 in 12.6s (next.js: 5.8s, application-code: 6.8s)
+ GET /api/og/projects/ai-interviewer-platform 500 in 12.6s (next.js: 5.8s, application-code: 6.8s)
+ GET /api/og/projects/b2b-lead-generation-platform 500 in 12.6s (next.js: 5.8s, application-code: 6.8s)
+ GET /api/og/projects/sanitro-erp 500 in 12.6s (next.js: 5.9s, application-code: 6.8s)
+⨯ upstream image response failed for /api/og/projects/van-pooling-school-transport Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+    at rr.next (<anonymous>)
+⨯ upstream image response failed for /api/og/projects/onestopcar Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+    at rr.next (<anonymous>)
+⨯ upstream image response failed for /api/og/projects/ai-chatbot-widget Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+    at rr.next (<anonymous>)
+⨯ upstream image response failed for /api/og/projects/ai-interviewer-platform Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+    at rr.next (<anonymous>)
+⨯ upstream image response failed for /api/og/projects/b2b-lead-generation-platform Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+    at rr.next (<anonymous>)
+⨯ upstream image response failed for /api/og/projects/sanitro-erp Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+    at rr.next (<anonymous>)
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+      at rr.next (<anonymous>)
+}
+ GET /api/og/projects/n8n-automation-solutions 500 in 472ms (next.js: 31ms, application-code: 441ms)
+⨯ upstream image response failed for /api/og/projects/n8n-automation-solutions Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+    at rr.next (<anonymous>)
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+      at rr.next (<anonymous>)
+}
+ GET /api/og/projects/web-scraper-data-collection 500 in 771ms (next.js: 486ms, application-code: 285ms)
+⨯ upstream image response failed for /api/og/projects/web-scraper-data-collection Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+    at rr.next (<anonymous>)
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+      at rr.next (<anonymous>)
+}
+ GET /api/og/projects/shopify-product-crawler 500 in 964ms (next.js: 790ms, application-code: 174ms)
+⨯ upstream image response failed for /api/og/projects/shopify-product-crawler Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+    at rr.next (<anonymous>)
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+      at rr.next (<anonymous>)
+}
+ GET /api/og/projects/job-hunting-platform 500 in 584ms (next.js: 12ms, application-code: 573ms)
+⨯ upstream image response failed for /api/og/projects/job-hunting-platform Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+    at rr.next (<anonymous>)
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+      at rr.next (<anonymous>)
+}
+ GET /api/og/projects/multimedia-ecommerce-platform 500 in 1240ms (next.js: 726ms, application-code: 514ms)
+⨯ upstream image response failed for /api/og/projects/multimedia-ecommerce-platform Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+    at rr.next (<anonymous>)
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+      at rr.next (<anonymous>)
+}
+ GET /api/og/projects/sanitro-erp 500 in 762ms (next.js: 76ms, application-code: 686ms)
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+      at rr.next (<anonymous>)
+}
+ GET /api/og/projects/ai-chatbot-widget 500 in 173ms (next.js: 16ms, application-code: 156ms)
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+      at rr.next (<anonymous>)
+}
+ GET /api/og/projects/n8n-automation-solutions 500 in 133ms (next.js: 22ms, application-code: 111ms)
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+      at rr.next (<anonymous>)
+}
+ GET /api/og/projects/onestopcar 500 in 132ms (next.js: 6ms, application-code: 126ms)
+ GET / 200 in 1477ms (next.js: 25ms, application-code: 1451ms)
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+      at rr.next (<anonymous>)
+}
+ GET /api/og/projects/ai-chatbot-widget 500 in 392ms (next.js: 37ms, application-code: 355ms)
+⨯ upstream image response failed for /api/og/projects/ai-chatbot-widget Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+    at rr.next (<anonymous>)
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+      at rr.next (<anonymous>)
+}
+ GET /api/og/projects/ai-interviewer-platform 500 in 569ms (next.js: 412ms, application-code: 157ms)
+⨯ upstream image response failed for /api/og/projects/ai-interviewer-platform Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+    at rr.next (<anonymous>)
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+      at rr.next (<anonymous>)
+}
+ GET /api/og/projects/b2b-lead-generation-platform 500 in 793ms (next.js: 577ms, application-code: 216ms)
+⨯ upstream image response failed for /api/og/projects/b2b-lead-generation-platform Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+    at rr.next (<anonymous>)
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+      at rr.next (<anonymous>)
+}
+ GET /api/og/projects/van-pooling-school-transport 500 in 1002ms (next.js: 801ms, application-code: 201ms)
+⨯ upstream image response failed for /api/og/projects/van-pooling-school-transport Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+    at rr.next (<anonymous>)
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+      at rr.next (<anonymous>)
+}
+ GET /api/og/projects/sanitro-erp 500 in 1238ms (next.js: 1031ms, application-code: 207ms)
+⨯ upstream image response failed for /api/og/projects/sanitro-erp Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+    at rr.next (<anonymous>)
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+      at rr.next (<anonymous>)
+}
+ GET /api/og/projects/onestopcar 500 in 1400ms (next.js: 1235ms, application-code: 165ms)
+⨯ upstream image response failed for /api/og/projects/onestopcar Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+    at rr.next (<anonymous>)
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+      at rr.next (<anonymous>)
+}
+ GET /api/og/projects/web-scraper-data-collection 500 in 718ms (next.js: 16ms, application-code: 702ms)
+⨯ upstream image response failed for /api/og/projects/web-scraper-data-collection Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+    at rr.next (<anonymous>)
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+      at rr.next (<anonymous>)
+}
+ GET /api/og/projects/shopify-product-crawler 500 in 881ms (next.js: 732ms, application-code: 150ms)
+⨯ upstream image response failed for /api/og/projects/shopify-product-crawler Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+    at rr.next (<anonymous>)
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+      at rr.next (<anonymous>)
+}
+ GET /api/og/projects/n8n-automation-solutions 500 in 1082ms (next.js: 912ms, application-code: 170ms)
+⨯ upstream image response failed for /api/og/projects/n8n-automation-solutions Error: Expected <div> to have explicit "display: flex", "display: contents", or "display: none" if it has more than one child node.
+    at rr.next (<anonymous>)
+ GET / 200 in 749ms (next.js: 217ms, application-code: 532ms)
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Invalid background image: "none"
+      at rr.next (<anonymous>)
+}
+ GET /api/og/projects/sanitro-erp 500 in 257ms (next.js: 41ms, application-code: 216ms)
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Invalid background image: "none"
+      at rr.next (<anonymous>)
+}
+ GET /api/og/projects/sanitro-erp 500 in 237ms (next.js: 24ms, application-code: 213ms)
+ GET / 200 in 592ms (next.js: 26ms, application-code: 567ms)
+ GET /api/og/projects/sanitro-erp 200 in 2.6s (next.js: 157ms, application-code: 2.4s)
+ GET /api/og/projects/ai-interviewer-platform 200 in 1485ms (next.js: 23ms, application-code: 1462ms)
+ GET /api/og/projects/ai-chatbot-widget 200 in 973ms (next.js: 25ms, application-code: 948ms)
+ GET /api/og/projects/b2b-lead-generation-platform 200 in 629ms (next.js: 6ms, application-code: 623ms)
+ GET /api/og/projects/van-pooling-school-transport 200 in 919ms (next.js: 20ms, application-code: 899ms)
+ GET /api/og/projects/onestopcar 200 in 629ms (next.js: 6ms, application-code: 622ms)
+ GET /api/og/projects/n8n-automation-solutions 200 in 484ms (next.js: 5ms, application-code: 480ms)
+ GET /api/og/projects/web-scraper-data-collection 200 in 1965ms (next.js: 29ms, application-code: 1937ms)
+ GET /api/og/projects/shopify-product-crawler 200 in 1003ms (next.js: 9ms, application-code: 995ms)
+ GET /api/og/projects/multimedia-ecommerce-platform 200 in 568ms (next.js: 21ms, application-code: 547ms)
+ GET /api/og/projects/job-hunting-platform 200 in 815ms (next.js: 8ms, application-code: 807ms)
+ GET / 200 in 771ms (next.js: 129ms, application-code: 642ms)
+ GET / 200 in 1837ms (next.js: 16ms, application-code: 1821ms)
+ GET /api/og/projects/sanitro-erp 200 in 1036ms (next.js: 36ms, application-code: 1001ms)
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Input buffer contains unsupported image format
+      at ignore-listed frames
+}
+ GET /api/og/projects/ai-chatbot-widget 500 in 645ms (next.js: 13ms, application-code: 632ms)
+⨯ upstream image response failed for /api/og/projects/ai-chatbot-widget Error: Input buffer contains unsupported image format
+    at ignore-listed frames
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Input buffer contains unsupported image format
+      at ignore-listed frames
+}
+ GET /api/og/projects/ai-interviewer-platform 500 in 661ms (next.js: 396ms, application-code: 265ms)
+⨯ upstream image response failed for /api/og/projects/ai-interviewer-platform Error: Input buffer contains unsupported image format
+    at ignore-listed frames
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Input buffer contains unsupported image format
+      at ignore-listed frames
+}
+ GET /api/og/projects/b2b-lead-generation-platform 500 in 3.0s (next.js: 232ms, application-code: 2.8s)
+⨯ upstream image response failed for /api/og/projects/b2b-lead-generation-platform Error: Input buffer contains unsupported image format
+    at ignore-listed frames
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Input buffer contains unsupported image format
+      at ignore-listed frames
+}
+ GET /api/og/projects/van-pooling-school-transport 500 in 3.0s (next.js: 1328ms, application-code: 1700ms)
+⨯ upstream image response failed for /api/og/projects/van-pooling-school-transport Error: Input buffer contains unsupported image format
+    at ignore-listed frames
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Input buffer contains unsupported image format
+      at ignore-listed frames
+}
+ GET /api/og/projects/onestopcar 500 in 4.6s (next.js: 3.3s, application-code: 1284ms)
+⨯ upstream image response failed for /api/og/projects/onestopcar Error: Input buffer contains unsupported image format
+    at ignore-listed frames
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Input buffer contains unsupported image format
+      at ignore-listed frames
+}
+ GET /api/og/projects/shopify-product-crawler 500 in 10.6s (next.js: 543ms, application-code: 10.1s)
+⨯ upstream image response failed for /api/og/projects/shopify-product-crawler Error: Input buffer contains unsupported image format
+    at ignore-listed frames
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Input buffer contains unsupported image format
+      at ignore-listed frames
+}
+ GET /api/og/projects/n8n-automation-solutions 500 in 10.7s (next.js: 4.5s, application-code: 6.1s)
+⨯ upstream image response failed for /api/og/projects/n8n-automation-solutions Error: Input buffer contains unsupported image format
+    at ignore-listed frames
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Input buffer contains unsupported image format
+      at ignore-listed frames
+}
+ GET /api/og/projects/multimedia-ecommerce-platform 500 in 10.6s (next.js: 6.4s, application-code: 4.3s)
+⨯ upstream image response failed for /api/og/projects/multimedia-ecommerce-platform Error: Input buffer contains unsupported image format
+    at ignore-listed frames
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Input buffer contains unsupported image format
+      at ignore-listed frames
+}
+ GET /api/og/projects/job-hunting-platform 500 in 10.9s (next.js: 7.9s, application-code: 3.0s)
+⨯ upstream image response failed for /api/og/projects/job-hunting-platform Error: Input buffer contains unsupported image format
+    at ignore-listed frames
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Input buffer contains unsupported image format
+      at ignore-listed frames
+}
+ GET /api/og/projects/web-scraper-data-collection 500 in 11.0s (next.js: 9.0s, application-code: 1975ms)
+⨯ upstream image response failed for /api/og/projects/web-scraper-data-collection Error: Input buffer contains unsupported image format
+    at ignore-listed frames
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Input buffer contains unsupported image format
+      at ignore-listed frames
+}
+ GET /api/og/projects/onestopcar 500 in 202ms (next.js: 46ms, application-code: 157ms)
+⨯ upstream image response failed for /api/og/projects/onestopcar Error: Input buffer contains unsupported image format
+    at ignore-listed frames
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Input buffer contains unsupported image format
+      at ignore-listed frames
+}
+ GET /api/og/projects/onestopcar 500 in 282ms (next.js: 25ms, application-code: 257ms)
+⨯ upstream image response failed for /api/og/projects/onestopcar Error: Input buffer contains unsupported image format
+    at ignore-listed frames
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Input buffer contains unsupported image format
+      at ignore-listed frames
+}
+ GET /api/og/projects/onestopcar 500 in 383ms (next.js: 15ms, application-code: 369ms)
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Input buffer contains unsupported image format
+      at ignore-listed frames
+}
+ GET /api/og/projects/multimedia-ecommerce-platform 500 in 1931ms (next.js: 154ms, application-code: 1777ms)
+⨯ upstream image response failed for /api/og/projects/multimedia-ecommerce-platform Error: Input buffer contains unsupported image format
+    at ignore-listed frames
+⨯ Error: failed to pipe response
+    at ignore-listed frames {
+  [cause]: Error: Input buffer contains unsupported image format
+      at ignore-listed frames
+}
+ GET /api/og/projects/job-hunting-platform 500 in 1950ms (next.js: 1267ms, application-code: 683ms)
+⨯ upstream image response failed for /api/og/projects/job-hunting-platform Error: Input buffer contains unsupported image format
+    at ignore-listed frames
+✓ Compiled in 4.2s
+✓ Compiled in 1156ms
+ GET / 200 in 4.0s (next.js: 313ms, application-code: 3.7s)
+ GET / 200 in 3.7s (next.js: 930ms, application-code: 2.8s)
+✓ Compiled in 2.7s
+⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 10.4s (next.js: 2.2s, application-code: 8.2s)
+ GET / 200 in 11.3s (next.js: 1876ms, application-code: 9.5s)
+ GET / 200 in 1270ms (next.js: 687ms, application-code: 583ms)
+ GET / 200 in 7.6s (next.js: 2.8s, application-code: 4.8s)
+ GET / 200 in 1277ms (next.js: 43ms, application-code: 1234ms)
+ GET / 200 in 7.6s (next.js: 1821ms, application-code: 5.7s)
+ GET / 200 in 7.7s (next.js: 328ms, application-code: 7.4s)
+ GET / 200 in 7.7s (next.js: 338ms, application-code: 7.3s)
+[browser] Image with src "/projects/sanitro-erp.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET /projects 200 in 5.1s (next.js: 3.0s, application-code: 2.1s)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET / 200 in 2.2s (next.js: 256ms, application-code: 1933ms)
+ GET / 200 in 961ms (next.js: 11ms, application-code: 950ms)
+ GET / 200 in 632ms (next.js: 8ms, application-code: 624ms)
+[?25h

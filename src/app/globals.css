@@ -1,0 +1,272 @@
+@import "tailwindcss";
+
+@theme {
+  /* ── Brand palette ────────────────────────────────────────────
+     Premium enterprise system  Veyrivo brand guidelines.
+     60-30-10 rule:
+       60% Midnight Navy / Brand Dark backgrounds
+       30% Electric / Veyrivo Blue  dominant brand color
+       10% Digital Violet  premium accent
+       ~5% Technology Cyan / Pure White  focal points only      */
+  --color-background: #030b1c; /* Midnight Navy  base layout */
+  --color-surface: #0a1833; /* Card surface base (#0A1833) */
+  --color-surface-2: #101d40; /* Raised surface  card gradient end */
+  --color-surface-3: #101a3d; /* Premium dark canvas gradient end */
+
+  --color-primary: #168bff; /* Electric Blue  dominant interactive */
+  --color-secondary: #0878e8; /* Veyrivo Blue  secondary interactive */
+  --color-accent: #7b4dff; /* Digital Violet  premium accent */
+  --color-purple: #9b6cff; /* Soft Purple  subtle highlight */
+  --color-focal: #18c8f5; /* Technology Cyan  minimal focal points */
+  --color-cta: #6d4cff; /* CTA gradient end (#168BFF  #6D4CFF) */
+
+  --color-foreground: #ffffff; /* Pure White  headings / primary text */
+  --color-muted: #b8c7dd; /* Silver Blue  body & metadata text */
+  --color-line: #16264a; /* Blue-violet tinted hairline */
+
+  /* Metallic silver accents (logo-inspired) */
+  --color-silver: #c9d6ea;
+  --color-silver-muted: #8fa3c2;
+
+  /* Section surfaces  the light "paper" tokens are remapped to
+     layered dark panels so every section shares the premium theme. */
+  --color-paper: #07152f; /* Brand Dark  alternate sections */
+  --color-paper-deep: #030b1c; /* Midnight Navy  deepest panels */
+  --color-ink: #ffffff;
+  --color-ink-muted: #b8c7dd;
+  --color-paper-line: #16264a;
+
+  /* Status colors */
+  --color-success: #34d399;
+  --color-warning: #fbbf24;
+  --color-danger: #f87171;
+
+  /* ── Typography ────────────────────────────────────────────── */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, sans-serif;
+  --font-heading: var(--font-manrope), var(--font-inter), ui-sans-serif,
+    system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, SFMono-Regular, Menlo,
+    Consolas, monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background font-sans text-foreground antialiased;
+  }
+
+  ::selection {
+    background: rgb(22 139 255 / 0.4);
+    color: #fff;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+/* ── Custom utilities ────────────────────────────────────────── */
+
+/* Electric Blue  Digital Violet gradient text  keywords & highlights */
+@utility text-gradient {
+  background: linear-gradient(92deg, var(--color-primary) 0%, var(--color-accent) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Metallic silver gradient text (logo-inspired) */
+@utility text-metal {
+  background: linear-gradient(
+    180deg,
+    #f2f6fc 0%,
+    #b9c9e2 45%,
+    #8fa3c2 70%,
+    #d7e2f2 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Soft electric glow shadows */
+@utility shadow-glow-blue {
+  box-shadow: 0 0 44px -10px rgb(22 139 255 / 0.5);
+}
+@utility shadow-glow-violet {
+  box-shadow: 0 0 44px -10px rgb(123 77 255 / 0.45);
+}
+@utility shadow-glow-cyan {
+  box-shadow: 0 0 44px -10px rgb(24 200 245 / 0.4);
+}
+
+@utility bg-grid-dark {
+  background-image: linear-gradient(
+      to right,
+      rgb(255 255 255 / 0.03) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgb(255 255 255 / 0.03) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+@utility bg-grid-light {
+  background-image: linear-gradient(
+      to right,
+      rgb(238 243 251 / 0.04) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgb(238 243 251 / 0.04) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+/* ── Keyframes ──────────────────────────────────────────────── */
+
+@keyframes float-slow {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+}
+
+@keyframes bar-grow {
+  from {
+    transform: scaleY(0.12);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+
+/* Gentle drift for decorative gradient orbs */
+@keyframes orb-drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(24px, -18px, 0) scale(1.08);
+  }
+}
+
+@keyframes sheen {
+  0% {
+    transform: translateX(-120%) skewX(-18deg);
+  }
+  100% {
+    transform: translateX(220%) skewX(-18deg);
+  }
+}
+
+/* Continuous rotation for animated gradient borders */
+@keyframes gradient-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@layer utilities {
+  .animate-float-slow {
+    animation: float-slow 6s ease-in-out infinite;
+  }
+  .animate-pulse-dot {
+    animation: pulse-dot 2.4s ease-in-out infinite;
+  }
+  .animate-bar-grow {
+    animation: bar-grow 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+    transform-origin: bottom;
+  }
+  .animate-orb {
+    animation: orb-drift 14s ease-in-out infinite;
+  }
+  .animate-sheen {
+    animation: sheen 3.2s ease-in-out infinite;
+  }
+  .animate-gradient-spin {
+    animation: gradient-spin 4s linear infinite;
+  }
+}
+
+/* ── Premium card recipe ─────────────────────────────────────── */
+/* Shared layered-surface card: 1px gradient border that shifts from
+   Electric Blue (#168BFF) to Digital Violet (#7B4DFF), inner top
+   sheen, soft drop shadow, and a blue glow + brightened border on
+   hover. Defined inside @layer components so Tailwind utilities can
+   still override it. */
+@layer components {
+  .card-premium {
+    @apply relative overflow-hidden rounded-[22px] transition-all duration-300;
+    border: 1px solid transparent;
+    background:
+      linear-gradient(180deg, #101d40 0%, #0a1833 100%) padding-box,
+      linear-gradient(180deg, rgb(22 139 255 / 0.42) 0%, rgb(123 77 255 / 0.34) 100%) border-box;
+    box-shadow:
+      inset 0 1px 0 0 rgb(255 255 255 / 0.05),
+      0 20px 50px -24px rgb(0 0 0 / 0.7);
+  }
+  .card-premium::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    box-shadow:
+      inset 0 0 0 1px rgb(22 139 255 / 0.35),
+      0 24px 60px -24px rgb(22 139 255 / 0.4);
+  }
+  /* Brightened blue-to-violet border ring on hover (1px, masked) */
+  .card-premium::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    padding: 1px;
+    background: linear-gradient(180deg, rgb(22 139 255 / 0.85), rgb(123 77 255 / 0.75));
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .card-premium:hover {
+    transform: translateY(-4px);
+  }
+  .card-premium:hover::before,
+  .card-premium:hover::after {
+    opacity: 1;
+  }
+  .card-premium:focus-visible {
+    outline: 2px solid rgb(22 139 255 / 0.7);
+    outline-offset: 2px;
+  }
+}

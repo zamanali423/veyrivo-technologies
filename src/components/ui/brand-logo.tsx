@@ -26,7 +26,11 @@ export function BrandLogo({
         height={383}
         priority={priority}
         sizes="(max-width: 640px) 3rem, 4rem"
-        className={cn("h-auto w-auto object-contain", className)}
+        // No h-* / w-* defaults here: callers always pass their own sizing
+        // (e.g. "h-10 w-auto") and cn() is a plain join, so a base "h-auto"
+        // would coexist with "h-10" and the stylesheet order would make the
+        // logo render near its 383px intrinsic width on small screens.
+        className={cn("max-w-full object-contain", className)}
       />
       {showWordmark ? (
         <span

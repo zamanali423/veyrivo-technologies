@@ -79,10 +79,10 @@ export function Header() {
             aria-label={`${siteConfig.name}  home`}
           >
             <BrandLogo
-              className="h-10 w-auto sm:h-12"
+              className="h-10 w-auto shrink-0 sm:h-12"
               priority
               showWordmark
-              wordmarkClassName="text-base sm:text-lg"
+              wordmarkClassName="text-base max-[360px]:hidden sm:text-lg"
             />
           </Link>
 

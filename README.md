@@ -33,6 +33,7 @@ Scripts:
 | `npm run build`   | Production build                 |
 | `npm run start`   | Serve the production build       |
 | `npm run lint`    | ESLint                           |
+| `npm run og:image`| Regenerate `src/app/opengraph-image.png` |
 | `npx tsc --noEmit`| Typecheck                        |
 
 ## Environment variables

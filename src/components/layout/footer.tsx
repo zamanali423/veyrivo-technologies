@@ -40,9 +40,9 @@ export function Footer() {
               aria-label={`${siteConfig.name}  home`}
             >
               <BrandLogo
-                className="h-14 w-auto sm:h-16"
+                className="h-12 w-auto shrink-0 sm:h-16"
                 showWordmark
-                wordmarkClassName="text-xl sm:text-2xl"
+                wordmarkClassName="text-lg max-[360px]:hidden sm:text-2xl"
               />
             </Link>
             <p className="mt-5 max-w-xs text-sm leading-relaxed text-muted">
@@ -117,7 +117,7 @@ export function Footer() {
                 <Mail className="h-4 w-4 shrink-0 text-secondary" />
                 <a
                   href={`mailto:${siteConfig.email}`}
-                  className="transition-colors hover:text-foreground"
+                  className="break-all transition-colors hover:text-foreground"
                 >
                   {siteConfig.email}
                 </a>
@@ -136,11 +136,11 @@ export function Footer() {
         </div>
 
         <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-line/70 pt-8 sm:flex-row">
-          <p className="font-mono text-xs text-muted">
+          <p className="text-center font-mono text-xs text-muted">
             © {new Date().getFullYear()} {siteConfig.name}. All rights
             reserved.
           </p>
-          <ul className="flex items-center gap-6">
+          <ul className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 sm:justify-end sm:gap-x-6">
             {[
               { label: "Privacy", href: "/privacy" },
               { label: "Terms", href: "/terms" },

@@ -4,6 +4,10 @@ import { services } from "@/content/services";
 import { insights } from "@/content/insights";
 import { projects } from "@/content/projects";
 
+// Required for `output: "export"` (Cloudflare Pages): sitemap.xml is generated
+// at build time and shipped as a static file.
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = siteConfig.url;
   const now = new Date();

@@ -4,7 +4,7 @@ export const siteConfig = {
   tagline: "Building the Intelligent Digital Future of Business.",
   description:
     "We build modern software, AI-powered applications, intelligent chatbots, and automated business solutions that simplify complex operations and accelerate growth.",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://veyrivo.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://veyrivo-technologies.netlify.app/",
   email: "veyrivotechnologies@gmail.com",
   phone: "+92 370 6018275",
   socials: {

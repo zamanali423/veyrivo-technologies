@@ -57,4 +57,15 @@ export const team: TeamMember[] = [
       { label: "Email", href: "mailto:veyrivotechnologies@gmail.com" },
     ],
   },
+  {
+    name: "Muhammad Bilal Mirza",
+    role: "Full Stack Developer",
+    bio: "Full Stack Developer Veyrivo and drives the technical architecture behind our platforms, dashboards, and AI systems.",
+    initials: "MB",
+    gradient: "from-primary to-focal",
+    socials: [
+      { label: "LinkedIn", href: "https://www.linkedin.com" },
+      { label: "Email", href: "mailto:veyrivotechnologies@gmail.com" },
+    ],
+  },
 ];

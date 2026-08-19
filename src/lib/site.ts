@@ -10,7 +10,7 @@ export const siteConfig = {
   socials: {
     linkedin: "https://www.linkedin.com/company/veyrivo-technologies",
     x: "https://x.com/veyrivo",
-    github: "https://github.com/veyrivo",
+    github: "https://github.com/veyrivo-technologies",
   },
 } as const;
 
